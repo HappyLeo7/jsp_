@@ -1,0 +1,14 @@
+DROP TABLE product;
+
+CREATE TABLE product(
+code int(5) PRIMARY KEY AUTO_INCREMENT,  
+name varchar(100), 
+price int ,
+pictureurl varchar(50) ,
+description varchar(1000)
+);
+
+select * from product;
+
+insert into product values (null,"상품",10000,"url","삼풍설명 - 삭제할것");
+insert into product values (null, "상품1", 25000, "url", "상품설명 - 삭제할놈임");

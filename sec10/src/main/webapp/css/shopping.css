@@ -1,0 +1,50 @@
+@charset "UTF-8";
+#wrap{
+	width: 971px;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+h1{
+	color: greem;
+	text-align:center;
+}
+table{
+	width: 100%;
+	border-collapse :collapse;
+	font-size: 12px;
+	line-height:24px; 
+}
+
+table th, td{
+	border: #d3d3d3 solid 1px;
+	padding: 5px;
+	text-align: left;
+	
+}
+
+th{
+	background: yellowgreen;
+}
+.list{
+	text-align:center;
+}
+
+img{
+	width: 220px;
+	height:300px;
+}
+a{
+	text-decoration:none;
+	color : black;
+}
+a:hover{
+	text-decoration:underline;
+	color : black;
+	
+}
+#productWrite{
+	text-align: right;
+}
